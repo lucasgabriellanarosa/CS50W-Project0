@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google Advanced Search</title>
+        <link rel="stylesheet" href="./styles.css">
+        <link rel="shortcut icon" href="./assets/flaticon.png" type="image/x-icon">
+    </head>
+
+    <body>
+
+        <header class="navHeader">
+            <nav class="navContainer space-between">
+                <img src="./assets/logo.png" class="logo-advancedSearch">
+                <a href="./index.html" class="navBtn">Go back</a>
+            </nav>
+        </header>
+
+        <main class="advancedSearchContainer">
+            <h1 class="advancedSearchTitle">Advanced Search</h1>
+            <hr>
+
+            <form action="https://www.google.com/search" class="form-container">
+
+                <h3>Search for...</h3>
+
+                <br>
+
+                <div class="row">
+                    <div class="column one">
+                        <label for="">All these words:</label>
+                    </div>
+                    
+                    <div class="column">
+                        <input type="text" class="advancedSearchInput" autocomplete="off" name="as_q">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="column one">
+                        <label for="">This exact word or phrase:</label>
+                    </div>
+                    
+                    <div class="column">
+                        <input type="text" class="advancedSearchInput" autocomplete="off" name="as_epq">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="column one">
+                        <label for="">Any of these words:</label>
+                    </div>
+                    
+                    <div class="column">
+                        <input type="text" class="advancedSearchInput" autocomplete="off" name="as_oq">
+                    </div>
+                </div>
+
+                <div class="row">
+
+                    <div class="column one">
+                        <label for="">None of these words:</label>
+                    </div>
+                    
+                    <div class="column">
+                        <input type="text" class="advancedSearchInput" autocomplete="off" name="as_eq">
+                    </div>
+                    
+                </div>
+                
+                <button type="submit" class="advancedSearchBtn" name="btnK">Advanced Search</button>
+            </form>
+        </main>        
+
+    </body>
+</html>
